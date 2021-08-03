@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, String, DateTime, create_engine
 from sqlalchemy.engine.base import Engine
 from sqlalchemy.engine.url import URL
 from sqlalchemy.ext.declarative import declarative_base
-import settings
+from grocer import settings
 
 
 # https://www.jitsejan.com/scraping-with-scrapy-and-postgres

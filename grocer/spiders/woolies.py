@@ -62,7 +62,7 @@ class TestSpider(scrapy.Spider):
     def parse(self, response) -> Generator[Dict, None, None]:
         logger.info("Running woolies spider")
         data = response.json()
-        str_stockcode = str(data[0]["Stockcode"])  # ['Stockcode'] == int
+        str_stockcode = str(data[0]["Stockcode"])  # ['Stockcode'] == int -> str
         # json.dumps(parsed, indent=4, sort_keys=True)
         if self.shell_interact and str_stockcode in self.shell_grocery:
             from scrapy.shell import inspect_response

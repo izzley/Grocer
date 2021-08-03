@@ -1,4 +1,3 @@
-import os
 # Scrapy settings for grocer project
 #
 # For simplicity, this file contains only settings considered important or
@@ -7,6 +6,15 @@ import os
 #     https://docs.scrapy.org/en/latest/topics/settings.html
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
+
+import configparser
+import pathlib
+
+# pull database credentials from local file
+# https://docs.python.org/3/library/configparser.html#module-configparser
+p = pathlib.Path.home() / 'Documents/grocer.ini'
+config = configparser.ConfigParser()
+config.read(p)
 
 BOT_NAME = 'grocer'
 
@@ -63,16 +71,17 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'grocer.pipelines.GrocerPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'grocer.pipelines.GrocerPipeline': 300,
+}
+
 DATABASE = {
-    "drivername": "postgres",
-    "host": "localhost",
-    "port": "5432",
-    "username": "izzlee",
-    "password": "postgres",
-    "database": "izzlee",
+    'drivername': config['DATABASE']['drivername'],
+    'host': config['DATABASE']['host'],
+    'port': config['DATABASE']['port'],
+    'username': config['DATABASE']['username'],
+    'password': config['DATABASE']['password'],
+    'database': config['DATABASE']['database'],
 }
 LOG_LEVEL = "INFO"
 # Enable and configure the AutoThrottle extension (disabled by default)

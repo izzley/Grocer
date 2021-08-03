@@ -1,0 +1,25 @@
+# pycache
+*__pycache__*
+
+# virtual env
+.venv
+
+# env files
+.env
+.envrc
+.env.*
+
+#
+.mypy_cache/
+.scrapy/
+
+# logs
+*.log
+
+# benchmarks
+profiles/
+.benchmarks/
+
+# todo files
+TODO
+TODO.md

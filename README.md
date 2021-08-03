@@ -15,15 +15,25 @@ Currently supports:
 With pip + venv:
 
 ```sh
-$ pip -m venv .venv
-$ pip install -r requirements.txt
+$ python3 -m venv .venv
 $ source .venv/bin/activate
+$ pip install --upgrade pip
+$ pip install -r requirements.txt
+```
+
+Create `.pth' file pointing to project parent folder/s
+```
+$ echo $(pwd) >> .venv/lib/python3.8/site-packages/my_p_ext.pth
 ```
 
 ## Development
 
-tbc
+cd into Grocer/ and test scrapy project is active
 
+```
+$ scrapy
+Scrapy 2.5.0 - project: grocer ...
+```
 
 ## Architecture overview
 

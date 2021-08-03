@@ -1,6 +1,6 @@
 # Groceries
 
-**NOTE: This is a scraping project with uses pythons open source [Scrapy Architecture](https://scrapy.org/)**
+**NOTE: This is a scraping project which uses pythons open source [Scrapy Architecture](https://scrapy.org/)**
 
 Currently supports:
 

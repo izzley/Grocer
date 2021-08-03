@@ -31,9 +31,10 @@ class Items(DeclarativeBase):
     Defines the items model
     """
 
-    __tablename__ = "items"
+    __tablename__ = "woolies_test"
 
-    stockcode = Column("Stockcode", String, primary_key=True)
+    id_ = Column("id", Integer, primary_key=True)
+    stockcode = Column("stockcode", String, primary_key=False)
     name = Column("name", String(100))
     displayname = Column("displayname", String(30))
     price = Column("price", Integer)

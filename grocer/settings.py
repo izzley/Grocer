@@ -12,7 +12,9 @@ import pathlib
 
 # pull database credentials from local file
 # https://docs.python.org/3/library/configparser.html#module-configparser
-p = pathlib.Path.home() / 'Documents/grocer.ini'
+# @TODO PurePath walk upwards from pathlib.Path()
+# https://docs.python.org/3/library/pathlib.html#pathlib.PurePath.parents
+p = pathlib.Path.home() / 'repos/Grocer/grocer.ini'
 config = configparser.ConfigParser()
 config.read(p)
 
@@ -104,3 +106,6 @@ AUTOTHROTTLE_START_DELAY = 5
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+
+print(DATABASE['drivername'])

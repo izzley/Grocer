@@ -16,8 +16,8 @@ class TestSpider(scrapy.Spider):
         'excludeUnavailable': 'false'}
 
     product_params = {
-        # 'Merediths_big': '663973',  # big jar
-        # 'Merediths_small': '135884',  # small jar
+        'Merediths_big': '663973',  # big jar
+        'Merediths_small': '135884',  # small jar
         # 'Kehoes_beet': '876670',  # beetroot
         # 'Kehoes_kim': '876671',  # kimchi
         # 'Mary_cracks': '325292',  # Marys gone crackers
@@ -32,16 +32,16 @@ class TestSpider(scrapy.Spider):
         # 'Coyo_nat': '896940',  # Natural 500g coyoghurt
         # 'Nakula_nat': '872611',  # Nakula 1kg coyoghurt
         # 'Peanut_b': '127012',  # Mayvers 750g
-        'Almond_meal': '120690',  # Woolies brand 665g
-        'Pasta_gfree': '795044',  # Olive green tri grain 300g
-        'Pasta_gfree_spiral': '378934',  # Buenotempo rice 500g
-        'Choc_grnblk': '2514',  # Green & black 70% Cocoa 90g
+        # 'Almond_meal': '120690',  # Woolies brand 665g
+        # 'Pasta_gfree': '795044',  # Olive green tri grain 300g
+        # 'Pasta_gfree_spiral': '378934',  # Buenotempo rice 500g
+        # 'Choc_grnblk': '2514',  # Green & black 70% Cocoa 90g
     }
 
     # useful scrapy shell interactive object for dev
     # https://docs.scrapy.org/en/latest/topics/shell.html#invoking-the-shell-from-spiders-to-inspect-responses
     shell_interact = False
-    shell_grocery = '795044'  # To interact with everything set as 'ALL'
+    shell_grocery = '663973'  # To interact with everything set as 'ALL'
 
     def start_requests(self) -> Generator[scrapy.Request, None, None]:
         prod_params = self.product_params
@@ -71,15 +71,15 @@ class TestSpider(scrapy.Spider):
         for a in data:
             yield {
                 'name': a['Name'],
-                'dislplayname': a['DisplayName'],
-                'stockcode': a['Stockcode'],
-                'price': a['Price'],
-                'cup_price': a['CupPrice'],
-                'cupmeasure': a['CupMeasure'],
-                'unitweight': a['UnitWeightInGrams'],
-                'wasprice': a['WasPrice'],
-                'instorewasprice': a['InstoreWasPrice'],
-                'savings_message': a['SavingsAmount'],
-                'store_DOM': self.allowed_domains[0],
-                'scrape_time': self.now
+                'displayname': a['DisplayName'],
+                'stockcode': a['Stockcode'], # int
+                'price': a['Price'], # int
+                'cup_price': a['CupPrice'], # float
+                'cupmeasure': a['CupMeasure'], # str
+                'unitweight': a['UnitWeightInGrams'], # int
+                'wasprice': a['WasPrice'], # int
+                'instorewasprice': a['InstoreWasPrice'], # int
+                'savings_message': a['SavingsAmount'], # int
+                'store_DOM': self.allowed_domains[0], # str
+                'scrape_time': self.now # str
             }

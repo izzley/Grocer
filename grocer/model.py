@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, DateTime, create_engine
+from sqlalchemy import Column, Integer, Float, String, DateTime, create_engine
 from sqlalchemy.engine.base import Engine
 from sqlalchemy.engine.url import URL
 from sqlalchemy.ext.declarative import declarative_base
@@ -34,14 +34,15 @@ class Items(DeclarativeBase):
     __tablename__ = "woolies_test"
 
     id_ = Column("id", Integer, primary_key=True)
-    stockcode = Column("stockcode", String, primary_key=False)
+    stockcode = Column("stockcode", String(20), primary_key=False)
     name = Column("name", String(100))
     displayname = Column("displayname", String(30))
     price = Column("price", Integer)
     cup_price = Column("cupprice", Integer)
-    unitweight = Column("unitweight", Integer)
-    wasprice = Column("wasprice", String(10))
-    instorewasprice = Column("instorewasprice", Integer)
-    savings_message = Column("savings_message", String(30))
+    cup_measure = Column("cupmeasure", String(10))
+    unitweight = Column("unitweight", Float)
+    wasprice = Column("wasprice", Float)
+    instorewasprice = Column("instorewasprice", Float)
+    savings_message = Column("savings_message", Float)
     store_DOM = Column("storeDOM", String(20))
     scrape_time = Column("scrape_time", DateTime)

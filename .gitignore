@@ -23,3 +23,6 @@ profiles/
 # todo files
 TODO
 TODO.md
+
+# ini file
+*.ini

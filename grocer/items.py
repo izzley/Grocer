@@ -8,17 +8,17 @@ import scrapy
 
 class WooliesItems(scrapy.Item):
     # define the fields for your item here like:
-    name = scrapy.Field()
-    dislplayname = scrapy.Field()
-    stockcode = scrapy.Field()
-    price = scrapy.Field()
-    cup_price = scrapy.Field()
-    cupmeasure = scrapy.Field()
-    unitweight = scrapy.Field()
-    wasprice = scrapy.Field()
-    instorewasprice = scrapy.Field()
-    savings_message = scrapy.Field()
-    store_DOM = scrapy.Field()
-    scrape_time = scrapy.Field()
+    name = scrapy.Field(serializer=str)
+    displayname = scrapy.Field(serializer=str)
+    stockcode = scrapy.Field(serializer=str)
+    price = scrapy.Field(serializer=str)
+    cup_price = scrapy.Field(serializer=str)
+    cupmeasure = scrapy.Field(serializer=str)
+    unitweight = scrapy.Field(serializer=str)
+    wasprice = scrapy.Field(serializer=str)
+    instorewasprice = scrapy.Field(serializer=str)
+    savings_message = scrapy.Field(serializer=str)
+    store_DOM = scrapy.Field(serializer=str)
+    scrape_time = scrapy.Field(serializer=str)
 
     pass

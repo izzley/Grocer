@@ -18,24 +18,24 @@ class TestSpider(scrapy.Spider):
     product_params = {
         'Merediths_big': '663973',  # big jar
         'Merediths_small': '135884',  # small jar
-        # 'Kehoes_beet': '876670',  # beetroot
-        # 'Kehoes_kim': '876671',  # kimchi
-        # 'Mary_cracks': '325292',  # Marys gone crackers
-        # 'Minor_oat': '155063',  # full (dark grey)
-        # 'Mntn_bread': '16436',  # rye
-        # 'Cider_vngr': '476910',  # braggs
-        # 'Tuna_chilli': '257374',  # sirena fillets 125g
-        # 'Frz_blueberry': '931859',  # oob organic 450g
-        # 'Frz_Rasp': '792993',  # oob organic 450g
-        # 'Frz_Strawb': '780094',  # oob organic 450g
-        # 'Frz_mixed': '815129',  # Macro mixed 450g
-        # 'Coyo_nat': '896940',  # Natural 500g coyoghurt
-        # 'Nakula_nat': '872611',  # Nakula 1kg coyoghurt
-        # 'Peanut_b': '127012',  # Mayvers 750g
-        # 'Almond_meal': '120690',  # Woolies brand 665g
-        # 'Pasta_gfree': '795044',  # Olive green tri grain 300g
-        # 'Pasta_gfree_spiral': '378934',  # Buenotempo rice 500g
-        # 'Choc_grnblk': '2514',  # Green & black 70% Cocoa 90g
+        'Kehoes_beet': '876670',  # beetroot
+        'Kehoes_kim': '876671',  # kimchi
+        'Mary_cracks': '325292',  # Marys gone crackers
+        'Minor_oat': '155063',  # full (dark grey)
+        'Mntn_bread': '16436',  # rye
+        'Cider_vngr': '476910',  # braggs
+        'Tuna_chilli': '257374',  # sirena fillets 125g
+        'Frz_blueberry': '931859',  # oob organic 450g
+        'Frz_Rasp': '792993',  # oob organic 450g
+        'Frz_Strawb': '780094',  # oob organic 450g
+        'Frz_mixed': '815129',  # Macro mixed 450g
+        'Coyo_nat': '896940',  # Natural 500g coyoghurt
+        'Nakula_nat': '872611',  # Nakula 1kg coyoghurt
+        'Peanut_b': '127012',  # Mayvers 750g
+        'Almond_meal': '120690',  # Woolies brand 665g
+        'Pasta_gfree': '795044',  # Olive green tri grain 300g
+        'Pasta_gfree_spiral': '378934',  # Buenotempo rice 500g
+        'Choc_grnblk': '2514',  # Green & black 70% Cocoa 90g
     }
 
     # useful scrapy shell interactive object for dev
@@ -70,16 +70,16 @@ class TestSpider(scrapy.Spider):
 
         for a in data:
             yield {
-                'name': a['Name'],
-                'displayname': a['DisplayName'],
-                'stockcode': a['Stockcode'], # int
-                'price': a['Price'], # int
-                'cup_price': a['CupPrice'], # float
-                'cupmeasure': a['CupMeasure'], # str
-                'unitweight': a['UnitWeightInGrams'], # int
-                'wasprice': a['WasPrice'], # int
-                'instorewasprice': a['InstoreWasPrice'], # int
-                'savings_message': a['SavingsAmount'], # int
-                'store_DOM': self.allowed_domains[0], # str
-                'scrape_time': self.now # str
+                'Name': a['Name'], # str
+                'DisplayName': a['DisplayName'], # str
+                'Stockcode': a['Stockcode'], # int
+                'Price': a['Price'], # int
+                'CupPrice': a['CupPrice'], # float
+                'CupMeasure': a['CupMeasure'], # str
+                'UnitWeightInGrams': a['UnitWeightInGrams'], # int
+                'WasPrice': a['WasPrice'], # int
+                'InstoreWasPrice': a['InstoreWasPrice'], # int
+                'SavingsAmount': a['SavingsAmount'], # int
+                'URL': self.allowed_domains[0], # str
+                'ScrapeTime': self.now # str
             }

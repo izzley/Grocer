@@ -2,6 +2,7 @@ from sqlalchemy import Column, Integer, Float, String, DateTime, create_engine
 from sqlalchemy.engine.base import Engine
 from sqlalchemy.engine.url import URL
 from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.sql.sqltypes import BIGINT
 from grocer import settings
 
 
@@ -33,16 +34,16 @@ class Items(DeclarativeBase):
 
     __tablename__ = "woolies_test"
 
-    id_ = Column("id", Integer, primary_key=True)
-    stockcode = Column("stockcode", String(20), primary_key=False)
-    name = Column("name", String(100))
-    displayname = Column("displayname", String(30))
-    price = Column("price", Integer)
-    cup_price = Column("cupprice", Integer)
-    cup_measure = Column("cupmeasure", String(10))
-    unitweight = Column("unitweight", Float)
-    wasprice = Column("wasprice", Float)
-    instorewasprice = Column("instorewasprice", Float)
-    savings_message = Column("savings_message", Float)
-    store_DOM = Column("storeDOM", String(20))
-    scrape_time = Column("scrape_time", DateTime)
+    id_ = Column("id", BIGINT, primary_key=True)
+    Stockcode = Column("Stockcode", String(30), primary_key=False)
+    Name = Column("Name", String(100))
+    DisplayName = Column("DisplayName", String(100))
+    Price = Column("Price", Float)
+    CupPrice = Column("CupPrice", Float)
+    CupMeasure = Column("CupMeasure", String(10))
+    UnitWeightInGrams = Column("UnitWeightInGrams", Float)
+    WasPrice = Column("WasPrice", Float)
+    InstoreWasPrice = Column("InstoreWasPrice", Float)
+    SavingsAmount = Column("SavingsAmount", Float)
+    url = Column("URL", String(50))
+    ScrapeTime = Column("ScrapeTime", DateTime)

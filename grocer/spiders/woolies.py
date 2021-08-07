@@ -11,7 +11,7 @@ class TestSpider(scrapy.Spider):
     name = 'woolies'
     allowed_domains = ['woolworths.com']
     ui = 'https://www.woolworths.com.au/apis/ui/products/'
-    now = datetime.datetime.now().strftime('%Y%M%d-%H%m')  # timestamp
+    now = datetime.datetime.now()  # timestamp
     data = {
         'excludeUnavailable': 'false'}
 
@@ -62,24 +62,25 @@ class TestSpider(scrapy.Spider):
     def parse(self, response) -> Generator[Dict, None, None]:
         logger.info("Running woolies spider")
         data = response.json()
-        str_stockcode = str(data[0]["Stockcode"])  # ['Stockcode'] == int -> str
+        stockcode = str(data[0]["Stockcode"])  # ['Stockcode'] == int -> str
         # json.dumps(parsed, indent=4, sort_keys=True)
-        if self.shell_interact and str_stockcode in self.shell_grocery:
+        if self.shell_interact and stockcode in self.shell_grocery:
             from scrapy.shell import inspect_response
             inspect_response(response, self)
 
         for a in data:
             yield {
-                'Name': a['Name'], # str
-                'DisplayName': a['DisplayName'], # str
-                'Stockcode': a['Stockcode'], # int
-                'Price': a['Price'], # int
-                'CupPrice': a['CupPrice'], # float
-                'CupMeasure': a['CupMeasure'], # str
-                'UnitWeightInGrams': a['UnitWeightInGrams'], # int
-                'WasPrice': a['WasPrice'], # int
-                'InstoreWasPrice': a['InstoreWasPrice'], # int
-                'SavingsAmount': a['SavingsAmount'], # int
-                'URL': self.allowed_domains[0], # str
-                'ScrapeTime': self.now # str
+                # @TODO Stockcode str of numbers is coerced into int
+                'stockcode': a['Stockcode'], # int
+                'name': a['Name'], # str
+                'displayName': a['DisplayName'], # str
+                'price': a['Price'], # int
+                'cupprice': a['CupPrice'], # float
+                'cupmeasure': a['CupMeasure'], # str
+                'unitweightingrams': a['UnitWeightInGrams'], # int
+                'wasprice': a['WasPrice'], # int
+                'instorewasprice': a['InstoreWasPrice'], # int
+                'savingsamount': a['SavingsAmount'], # int
+                'url': self.allowed_domains[0], # str
+                'scrapetime': self.now # str
             }

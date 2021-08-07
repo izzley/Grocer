@@ -15,19 +15,19 @@ from grocer import settings
 
 Base = declarative_base()
 
-# def db_connect() -> Engine:
-#     """
-#     Creates database connection using database settings from settings.py.
-#     Returns sqlalchemy engine instance
-#     """
-#     return create_engine(URL(**settings.DATABASE))
+def db_connect() -> Engine:
+    """
+    Creates database connection using database settings from settings.py.
+    Returns sqlalchemy engine instance
+    """
+    return create_engine(URL(**settings.DATABASE))
 
 
-# def create_items_table(engine: Engine):
-#     """
-#     Create the Items table
-#     """
-#     Base.metadata.create_all(engine)
+def create_items_table(engine: Engine):
+    """
+    Create the Items table
+    """
+    Base.metadata.create_all(engine)
 
 class WooliesORM(Base):
     """
@@ -36,25 +36,26 @@ class WooliesORM(Base):
 
     __tablename__ = "woolies_test"
 
-    id_         = Column("id", BIGINT, primary_key=True)
-    Stockcode   = Column("Stockcode", CHAR(30), primary_key=False)
-    Name        = Column("Name", CHAR(100))
-    DisplayName = Column("DisplayName", CHAR(100))
-    Price       = Column("Price", Float)
-    CupPrice    = Column("CupPrice", Float)
-    CupMeasure  = Column("CupMeasure", CHAR(10))
-    UnitWeightInGrams = Column("UnitWeightInGrams", Float)
-    WasPrice    = Column("WasPrice", Float)
-    InstoreWasPrice = Column("InstoreWasPrice", Float)
-    SavingsAmount = Column("SavingsAmount", Float)
-    url         = Column("URL", CHAR(50))
-    ScrapeTime  = Column("ScrapeTime", DateTime)
+    id_ = Column("id", BIGINT, primary_key=True)
+    stockcode = Column("stockcode", CHAR(30), primary_key=False)
+    name = Column("name", CHAR(100))
+    displayName = Column("displayname", CHAR(100))
+    price = Column("price", Float)
+    cupprice = Column("cupprice", Float)
+    cupmeasure = Column("cupmeasure", CHAR(10))
+    unitweightingrams = Column("unitweightingrams", Float)
+    wasprice = Column("wasprice", Float)
+    instorewasprice = Column("instorewasprice", Float)
+    savingsamount = Column("savingsamount", Float)
+    url = Column("url", CHAR(50))
+    scrapetime = Column("scrapetime", DateTime)
 
 class WooliesModel(BaseModel):
     """
     Typing of woolies items
     """
     # @TODO pydantic types vs sql types: Integer or int
+    # @TODO how is BaseModel called?
     id_: int
     Stockcode: constr(max_length=30, strict=True)
     Name: constr(max_length=100)

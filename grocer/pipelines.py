@@ -2,7 +2,7 @@
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 
 from sqlalchemy.orm import sessionmaker
-from grocer.db.model import Items, create_items_table, db_connect
+from grocer.db.model import WooliesORM, create_items_table, db_connect
 
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
@@ -18,10 +18,10 @@ class GrocerPipeline:
         Process the item and store to database.
         """
         session = self.Session()
-        instance = session.query(Items).filter_by(**item).one_or_none()
+        instance = session.query(WooliesORM).filter_by(**item).one_or_none()
         if instance:
             return instance
-        woolies = Items(**item)
+        woolies = WooliesORM(**item)
 
         try:
             session.add(woolies)

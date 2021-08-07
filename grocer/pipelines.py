@@ -2,7 +2,7 @@
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 
 from sqlalchemy.orm import sessionmaker
-from grocer.model import Items, create_items_table, db_connect
+from grocer.db.model import Items, create_items_table, db_connect
 
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter

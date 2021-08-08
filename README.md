@@ -49,6 +49,7 @@ password = postgres
 database = <database>
 ```
 
+Scrapy spiders are located in 
 
 ## Architecture overview
 

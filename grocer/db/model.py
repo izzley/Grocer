@@ -37,7 +37,7 @@ class WooliesORM(Base):
     __tablename__ = "woolies_test"
 
     id_ = Column("id", BIGINT, primary_key=True)
-    stockcode = Column("stockcode", CHAR(30), primary_key=False)
+    stockcode = Column("stockcode", Integer, primary_key=False)
     name = Column("name", CHAR(100))
     displayName = Column("displayname", CHAR(100))
     price = Column("price", Float)

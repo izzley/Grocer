@@ -3,6 +3,7 @@
 
 from sqlalchemy.orm import sessionmaker
 from grocer.db.model import WooliesORM, create_items_table, db_connect
+from grocer.items import WooliesItems
 
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter

@@ -39,7 +39,7 @@ Scrapy 2.5.0 - project: grocer ...
 
 This project uses [Scrapy](https://scrapy.org/) to obtain data from stores.
 
-No databases have been linked yet but intends to use [SQLAlchemy](https://www.sqlalchemy.org/) to store data, and possibly [Alembic](https://alembic.sqlalchemy.org/en/latest/) for database migrations.
+DATABASE parameters in [SQLAlchemy](https://www.sqlalchemy.org/) to store data, and possibly [Alembic](https://alembic.sqlalchemy.org/en/latest/) for database migrations.
 
 Overview of scrapy architecture:
 

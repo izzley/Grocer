@@ -1,6 +1,6 @@
 import pandas as pd
 from sqlalchemy import create_engine
-from grocer.settings import DATABASE
+from settings.scrapy import DATABASE
 
 DRIVER = DATABASE['drivername']
 USER = DATABASE['username']

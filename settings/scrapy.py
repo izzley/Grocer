@@ -14,7 +14,8 @@ import pathlib
 # https://docs.python.org/3/library/configparser.html#module-configparser
 # @TODO PurePath walk upwards from pathlib.Path()
 # https://docs.python.org/3/library/pathlib.html#pathlib.PurePath.parents
-p = pathlib.Path.home() / 'repos/Grocer/grocer.ini'
+p = pathlib.Path('.') / 'settings/grocer.ini'
+print(p.resolve())
 config = configparser.ConfigParser()
 config.read(p)
 

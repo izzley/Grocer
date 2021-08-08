@@ -9,7 +9,7 @@ from sqlalchemy.engine.url import URL
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.sql.sqltypes import BIGINT
 
-from grocer import settings
+from settings import scrapy
 
 # https://pydantic-docs.helpmanual.io/usage/models/
 
@@ -20,7 +20,7 @@ def db_connect() -> Engine:
     Creates database connection using database settings from settings.py.
     Returns sqlalchemy engine instance
     """
-    return create_engine(URL(**settings.DATABASE))
+    return create_engine(URL(**scrapy.DATABASE))
 
 
 def create_items_table(engine: Engine):

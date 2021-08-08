@@ -28,18 +28,33 @@ $ echo $(pwd) >> .venv/lib/python3.8/site-packages/my_p_ext.pth
 
 ## Development
 
-cd into Grocer/ and test scrapy project is active
+Check your scrapy project is active. Run the `scrapy` command from the inside the project Grocer folder:
 
 ```
 $ scrapy
 Scrapy 2.5.0 - project: grocer ...
 ```
 
+[Scrapy Docs](https://scrapy.org/) are really comprehensive if you're interested in learning.
+
+To connect the output data to a database, install [postgres](https://www.postgresql.org/download/) then add a filename called `grocer.ini` with database details
+
+```
+[DATABASE]
+drivername = postgresql
+host = localhost
+port = 5432
+username = <user>
+password = postgres
+database = <database>
+```
+
+
 ## Architecture overview
 
-This project uses [Scrapy](https://scrapy.org/) to obtain data from stores.
+This project uses [Scrapy](https://scrapy.org/) for webscraping and [SQLAlchemy](https://www.sqlalchemy.org/) to store the data.
 
-DATABASE parameters in [SQLAlchemy](https://www.sqlalchemy.org/) to store data, and possibly [Alembic](https://alembic.sqlalchemy.org/en/latest/) for database migrations.
+Possibly will use [Alembic](https://alembic.sqlalchemy.org/en/latest/) for data migrations in the future.
 
 Overview of scrapy architecture:
 

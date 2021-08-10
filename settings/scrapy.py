@@ -75,7 +75,7 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'grocer.pipelines.GrocerPipeline': 300,
+   'grocer.pipelines.StoreToWooliesDatabase': 300,
 }
 
 DATABASE = {

@@ -1,19 +1,22 @@
-import scrapy
-from typing import Dict, Generator
 import datetime
 import logging
+from typing import Dict, Generator, Set
+
+import scrapy
+from grocer.pipelines import StoreToWooliesDatabase
+
 # https://github.com/stav/wgrep
 # https://stackoverflow.com/questions/63058957/how-to-extract-hidden-html-content-with-scrapy
 logger = logging.getLogger('woolies')
 
 
-class TestSpider(scrapy.Spider):
+class WooliesSpider(scrapy.Spider):
     name = 'woolies'
     allowed_domains = ['woolworths.com']
     ui = 'https://www.woolworths.com.au/apis/ui/products/'
     now = datetime.datetime.now()  # timestamp
-    data = {
-        'excludeUnavailable': 'false'}
+    data = {'excludeUnavailable': 'false'}
+    pipelines = set([StoreToWooliesDatabase])
 
     product_params = {
         'Merediths_big': '663973',  # big jar

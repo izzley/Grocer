@@ -2,6 +2,7 @@
 This is a custom module for scrapy that allows you to set custom pipelines
 to execute. By default scrapy will pass a crawler through every pipeline
 step.
+https://stackoverflow.com/questions/8372703/how-can-i-use-different-pipelines-for-different-spiders-in-a-single-scrapy-proje
 
 The pipelines you want to execute should be included as a set. You can
 set them using the pipelines or pipelines_extra class property on the

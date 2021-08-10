@@ -10,7 +10,7 @@ from grocer.db.model import WooliesORM, create_items_table, db_connect
 from grocer.utils.pipelines import check_spider_pipeline
 
 
-class GrocerPipeline:
+class StoreToWooliesDatabase:
     def __init__(self):
         engine = db_connect()
         create_items_table(engine)

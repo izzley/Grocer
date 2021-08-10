@@ -14,6 +14,7 @@ from settings import scrapy
 # https://pydantic-docs.helpmanual.io/usage/models/
 
 Base = declarative_base()
+metadata = Base.metadata
 
 def db_connect() -> Engine:
     """

@@ -1,0 +1,6 @@
+[
+{"name": "Woolworths Almond Meal", "dislplayname": "Woolworths Almond Meal 665g", "stockcode": 120690, "price": 10.5, "cup_price": 15.79, "cupmeasure": "1KG", "unitweight": 672, "wasprice": 10.5, "instorewasprice": 10.5, "savings_message": 0.0, "store_DOM": "woolworths.com", "scrape_time": "20214601-2008"},
+{"name": "Olive Green Organics Penne Tri Grain", "dislplayname": "Olive Green Organics Penne Tri Grain 300g", "stockcode": 795044, "price": 6, "cup_price": 2, "cupmeasure": "100G", "unitweight": 300, "wasprice": 6, "instorewasprice": 6, "savings_message": 0, "store_DOM": "woolworths.com", "scrape_time": "20214601-2008"},
+{"name": "Buontempo Gluten & Wheat Free Pasta Spirals Pasta", "dislplayname": "Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g", "stockcode": 378934, "price": 3.4, "cup_price": 0.68, "cupmeasure": "100G", "unitweight": 520, "wasprice": 3.4, "instorewasprice": 3.4, "savings_message": 0.0, "store_DOM": "woolworths.com", "scrape_time": "20214601-2008"},
+{"name": "Green & Black's Organic Dark Chocolate 70% Cocoa", "dislplayname": "Green & Black's Organic Dark Chocolate 70% Cocoa 90g", "stockcode": 2514, "price": 4.25, "cup_price": 4.72, "cupmeasure": "100G", "unitweight": 44, "wasprice": 4.25, "instorewasprice": 4.25, "savings_message": 0.0, "store_DOM": "woolworths.com", "scrape_time": "20214601-2008"}
+]

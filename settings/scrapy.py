@@ -10,21 +10,35 @@
 import configparser
 import pathlib
 
-# pull database credentials from local file
-# https://docs.python.org/3/library/configparser.html#module-configparser
-# @TODO PurePath walk upwards from pathlib.Path()
-# https://docs.python.org/3/library/pathlib.html#pathlib.PurePath.parents
-p = pathlib.Path('.') / 'settings/grocer.ini'
-print(p.resolve())
-config = configparser.ConfigParser()
-config.read(p)
-
 BOT_NAME = 'grocer'
 
 SPIDER_MODULES = ['grocer.spiders']
 NEWSPIDER_MODULE = 'grocer.spiders'
 
+# pull database credentials from local file
+# https://docs.python.org/3/library/configparser.html#module-configparser
+# @TODO PurePath walk upwards from pathlib.Path()
+# https://docs.python.org/3/library/pathlib.html#pathlib.PurePath.parents
+p = pathlib.Path('.') / 'settings/grocer.ini'
+config = configparser.ConfigParser()
+config.read(p)
 
+EMAIL = {
+    'portnumber': config['EMAIL']['portnumber'],
+    'mailserver': config['EMAIL']['mailserver'],
+    'password': config['EMAIL']['password'],
+    'fromaddress': config['EMAIL']['fromaddress'],
+    'toaddress': config['EMAIL']['toaddress'],
+}
+
+DATABASE = {
+    'drivername': config['DATABASE']['drivername'],
+    'host': config['DATABASE']['host'],
+    'port': config['DATABASE']['port'],
+    'username': config['DATABASE']['username'],
+    'password': config['DATABASE']['password'],
+    'database': config['DATABASE']['database'],
+}
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'grocer (+http://www.yourdomain.com)'
 
@@ -78,14 +92,6 @@ ITEM_PIPELINES = {
    'grocer.pipelines.StoreToWooliesDatabase': 300,
 }
 
-DATABASE = {
-    'drivername': config['DATABASE']['drivername'],
-    'host': config['DATABASE']['host'],
-    'port': config['DATABASE']['port'],
-    'username': config['DATABASE']['username'],
-    'password': config['DATABASE']['password'],
-    'database': config['DATABASE']['database'],
-}
 LOG_LEVEL = "INFO"
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -107,3 +113,6 @@ AUTOTHROTTLE_START_DELAY = 5
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+if __name__ == '__main__':
+  print(EMAIL['mailserver'])

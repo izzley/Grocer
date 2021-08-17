@@ -7,7 +7,7 @@ db = DATABASE['database']
 user = DATABASE['username']
 password = DATABASE['password']
 
-class WooliesViews:
+class WooliesView:
     # psycopg2 connect
     conn = pg.connect(f"dbname={db} user={user} password={password}")
     cur = conn.cursor()

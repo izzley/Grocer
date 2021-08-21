@@ -36,3 +36,9 @@ class WooliesView:
             ''')
         self.cur.execute(query)
         return self.cur.fetchall()
+
+if __name__ == '__main__':
+    # list of item tuples
+    tup = WooliesView().current_savings()
+    df = pd.DataFrame(tup)
+    print(df)

@@ -1,15 +1,15 @@
+from datetime import datetime
 from typing import List
 
 from pydantic import BaseModel, constr
-from datetime import datetime
-from sqlalchemy import Column, DateTime, Float, Integer, CHAR, String, create_engine
+from settings import scrapy
+from sqlalchemy import (CHAR, Column, DateTime, Float, Integer, String,
+                        create_engine)
 from sqlalchemy.dialects import postgresql
 from sqlalchemy.engine.base import Engine
 from sqlalchemy.engine.url import URL
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.sql.sqltypes import BIGINT
-
-from settings import scrapy
 
 # https://pydantic-docs.helpmanual.io/usage/models/
 
@@ -56,7 +56,6 @@ class WooliesModel(BaseModel):
     Typing of woolies items
     """
     # @TODO pydantic types vs sql types: Integer or int
-    # @TODO how is BaseModel called?
     id_: int
     Stockcode: constr(max_length=30, strict=True)
     Name: constr(max_length=100)

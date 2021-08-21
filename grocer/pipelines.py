@@ -1,12 +1,7 @@
-# Don't forget to add your pipeline to the ITEM_PIPELINES setting
-# See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-
-# useful for handling different item types with a single interface
-from itemadapter import ItemAdapter
 from sqlalchemy.orm import sessionmaker
 
 from grocer.db.model import WooliesORM, create_items_table, db_connect
-# from grocer.items import WooliesItems
+
 from grocer.utils.pipelines import check_spider_pipeline
 
 
@@ -38,3 +33,13 @@ class StoreToWooliesDatabase:
             session.close()
 
         return item
+
+
+class HarrisfarmItems:
+    @check_spider_pipeline
+    def process_item(self, item, spider):
+        """
+        Process harris farm items with xpath tags
+        """
+
+        

@@ -51,7 +51,7 @@ class WooliesSpider(scrapy.Spider):
         endpoint_l = [prod_params[key] for key in prod_params]
         ui = self.ui
 
-        # Interactive option
+        # Interactive option to only get item response
         if self.shell_interact:
             for end_p in prod_params:
                     url = f'{ui}{prod_params[end_p]}'

@@ -2,30 +2,8 @@
 This is a custom module for scrapy that allows you to set custom pipelines
 to execute. By default scrapy will pass a crawler through every pipeline
 step.
+
 https://stackoverflow.com/questions/8372703/how-can-i-use-different-pipelines-for-different-spiders-in-a-single-scrapy-proje
-
-The pipelines you want to execute should be included as a set. You can
-set them using the pipelines or pipelines_extra class property on the
-spider.
-
-ex.
-
-In [9]: class ExampleSpider(Spider):
-   ...:     name = "spider.test"
-   ...:     pipelines = set([do something])
-   ...:
-
-The pipelines process_item method need to be wrapped in check_spider_pipeline
-
-ex.
-
-```
-In [10]: class NemwebUnitScadaOpenNEMStorePipeline(object):
-   ...:     @check_spider_pipeline
-   ...:     def process_item(self, item: Dict[str, Any], spider=None) -> List:
-   ...:         pass
-   ...:
-```
 
 With no wrapping it will execute the pipeline per normal scrapy behavior.
 """
@@ -46,13 +24,14 @@ def check_spider_pipeline(process_item_method: Callable) -> Callable:
 
         pipelines = set([])
 
-        if hasattr(spider, "pipelines"):
-            if type(spider.pipelines) is set:
-                pipelines |= spider.pipelines
+        if hasattr(spider, "pipelines") and type(spider.pipelines) is set:
+            pipelines |= spider.pipelines
 
-        if hasattr(spider, "pipelines_extra"):
-            if type(spider.pipelines_extra) is set:
-                pipelines |= spider.pipelines_extra
+        if (
+            hasattr(spider, "pipelines_extra")
+            and type(spider.pipelines_extra) is set
+        ):
+            pipelines |= spider.pipelines_extra
 
         if self.__class__ in pipelines:
             spider.log(msg % "Executing", level=logging.INFO)

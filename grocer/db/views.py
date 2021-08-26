@@ -69,11 +69,11 @@ def _dict_to_df(dict_query):
 if __name__ == '__main__':
     
     w = WooliesView()
-    print("Current Savings")
-    print(_dict_to_df(w.current_savings()))
+    # print("Current Savings")
+    # print(_dict_to_df(w.current_savings()))
 
     print("All recent data")
     print(_dict_to_df(w.all_table()))
 
-    print("most recent data")
-    print(_dict_to_df(w.most_recent()))
+    # print("most recent data")
+    # print(_dict_to_df(w.most_recent()))

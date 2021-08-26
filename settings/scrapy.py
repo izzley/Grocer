@@ -39,6 +39,8 @@ DATABASE = {
     'password': config['DATABASE']['password'],
     'database': config['DATABASE']['database'],
 }
+
+db_url = f"{DATABASE['drivername']}://{DATABASE['host']}/{DATABASE['database']}?{DATABASE['username']}=other&password=secret"
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'grocer (+http://www.yourdomain.com)'
 

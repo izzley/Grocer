@@ -35,11 +35,9 @@ class HarrisfarmSpider(scrapy.Spider):
     
     def parse(self, response) -> Generator[Dict, None, None]:
         logger.info("Running harrisfarm spider")
-        item = {}
-        item['name'] = response.xpath('//h1[@itemprop="name"]/text()').extract()[0]
+        item = {'name': response.xpath('//h1[@itemprop="name"]/text()').extract()[0]}
         item['displayName'] = item['name']
         item['price'] = response.xpath('//span[@class="from_price"]/text()').extract()[0]
         # @TODO can't get small attribute eg ['$3.80 per 100g']
         item['cupprice'] = response.xpath('//span[@class="unit_price"]').extract()
-        pass
         

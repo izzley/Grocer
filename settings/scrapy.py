@@ -7,40 +7,31 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-import configparser
-import pathlib
+from pathlib import Path
+
+from settings import config_dict
 
 BOT_NAME = 'grocer'
 
 SPIDER_MODULES = ['grocer.spiders']
 NEWSPIDER_MODULE = 'grocer.spiders'
 
-# pull database credentials from local file
-# https://docs.python.org/3/library/configparser.html#module-configparser
-# @TODO PurePath walk upwards from pathlib.Path()
-# https://docs.python.org/3/library/pathlib.html#pathlib.PurePath.parents
-p = pathlib.Path('.') / 'settings/grocer.ini'
-config = configparser.ConfigParser()
-config.read(p)
+# email credentials
+EMAIL = config_dict(section='EMAIL')
 
-EMAIL = {
-    'portnumber': config['EMAIL']['portnumber'],
-    'mailserver': config['EMAIL']['mailserver'],
-    'password': config['EMAIL']['password'],
-    'fromaddress': config['EMAIL']['fromaddress'],
-    'toaddress': config['EMAIL']['toaddress'],
-}
+# database credentials
+DB = config_dict(section='DATABASE')
 
-DATABASE = {
-    'drivername': config['DATABASE']['drivername'],
-    'host': config['DATABASE']['host'],
-    'port': config['DATABASE']['port'],
-    'username': config['DATABASE']['username'],
-    'password': config['DATABASE']['password'],
-    'database': config['DATABASE']['database'],
-}
+DRIVER = DB['drivername']
+USER = DB['username']
+PASS = DB['password']
+HOST = DB['host']
+PORT = DB['port']
+DBASE = DB['database']
 
-db_url = f"{DATABASE['drivername']}://{DATABASE['host']}/{DATABASE['database']}?{DATABASE['username']}=other&password=secret"
+# databse url string
+db_string = f"{DRIVER}://{USER}:{PASS}@{HOST}:{PORT}/{DB}"
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'grocer (+http://www.yourdomain.com)'
 
@@ -117,4 +108,8 @@ AUTOTHROTTLE_START_DELAY = 5
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 if __name__ == '__main__':
-  print(EMAIL['mailserver'])
+  print()
+  print()
+  print(DB)
+  print(db_string)
+  print(EMAIL)

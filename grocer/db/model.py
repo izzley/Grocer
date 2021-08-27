@@ -2,7 +2,7 @@ from datetime import datetime
 from typing import List
 
 from pydantic import BaseModel, constr
-from settings import scrapy
+from settings.scrapy import DB
 from sqlalchemy import (CHAR, Column, DateTime, Float, Integer, String,
                         create_engine)
 from sqlalchemy.dialects import postgresql
@@ -21,7 +21,7 @@ def db_connect() -> Engine:
     Creates database connection using database settings from settings.py.
     Returns sqlalchemy engine instance
     """
-    return create_engine(URL(**scrapy.DATABASE))
+    return create_engine(URL(**DB))
 
 
 def create_items_table(engine: Engine):

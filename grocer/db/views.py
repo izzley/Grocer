@@ -1,11 +1,11 @@
 import psycopg2 as pg
 import pandas as pd
-from settings.scrapy import DATABASE
+from settings.scrapy import DB
 
 # db credentials
-db = DATABASE['database']
-user = DATABASE['username']
-password = DATABASE['password']
+db = DB['database']
+user = DB['username']
+password = DB['password']
 
 class WooliesView:
     # psycopg2 connect

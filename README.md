@@ -21,7 +21,9 @@ $ pip install --upgrade pip
 $ pip install -r requirements.txt
 ```
 
-Create `.pth' file pointing to project parent folder/s
+If your relative imports aren't working, create `.pth' and add the 
+parent folder/s to the file:
+
 ```
 $ echo $(pwd) >> .venv/lib/python3.8/site-packages/my_p_ext.pth
 ```

@@ -26,3 +26,8 @@ TODO.md
 
 # ini file
 *.ini
+
+# test files to ignore
+butter.html
+~/repos/Grocer/test/butter.html
+*butter.txt

@@ -32,7 +32,7 @@ def woolies_savings():
     return pd.read_sql_query(query, con=engine)
 
 if __name__ == "__main__":
-    # print(allwoolies())
+    # print(woolies_all())
     print(woolies_savings())
 
 

@@ -17,7 +17,7 @@ SPIDER_MODULES = ['grocer.spiders']
 NEWSPIDER_MODULE = 'grocer.spiders'
 
 # email credentials
-EMAIL = config_dict(section='EMAIL')
+# EMAIL = config_dict(section='EMAIL')
 
 # database credentials
 DB = config_dict(section='DATABASE')
@@ -108,8 +108,6 @@ AUTOTHROTTLE_START_DELAY = 5
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 if __name__ == '__main__':
-  print()
-  print()
   print(DB)
   print(db_string)
-  print(EMAIL)
+  # print(EMAIL)

@@ -199,3 +199,443 @@ id,stockcode,name,displayname,price,cupprice,cupmeasure,unitweightingrams,waspri
 198,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-08-15 14:31:49.026873
 199,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,2.7,0.54,100G,520,3.4,3.4,0.7,woolworths.com,2021-08-15 14:31:49.026873
 200,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-08-15 14:31:49.026873
+201,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,20,36.36,1KG,946,20,20,0,woolworths.com,2021-08-16 20:18:38.974275
+202,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-08-16 20:18:38.974275
+203,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-16 20:18:38.974275
+204,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-16 20:18:38.974275
+205,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,12,6.52,100G,184,12,12,0,woolworths.com,2021-08-16 20:18:38.974275
+206,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,3.92,3.92,1L,1100,4.9,4.9,0.98,woolworths.com,2021-08-16 20:18:38.974275
+207,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,4,2,100G,232,4,4,0,woolworths.com,2021-08-16 20:18:38.974275
+208,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,12.95,1.37,100ML,1300,12.95,12.95,0,woolworths.com,2021-08-16 20:18:38.974275
+209,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3.5,28,1KG,154,3.5,3.5,0,woolworths.com,2021-08-16 20:18:38.974275
+210,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,7.5,16.67,1KG,500,8.5,8.5,1,woolworths.com,2021-08-16 20:18:38.974275
+211,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,7.5,16.67,1KG,500,8.5,8.5,1,woolworths.com,2021-08-16 20:18:38.974275
+212,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,7.5,15,1KG,550,8.5,8.5,1,woolworths.com,2021-08-16 20:18:38.974275
+213,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-08-16 20:18:38.974275
+214,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,8,1.6,100G,532,8,8,0,woolworths.com,2021-08-16 20:18:38.974275
+215,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,8,0.8,100G,1042,10,10,2,woolworths.com,2021-08-16 20:18:38.974275
+216,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,1070,8.5,8.5,0,woolworths.com,2021-08-16 20:18:38.974275
+217,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-08-16 20:18:38.974275
+218,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-08-16 20:18:38.974275
+219,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,2.7,0.54,100G,520,3.4,3.4,0.7,woolworths.com,2021-08-16 20:18:38.974275
+220,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-08-16 20:18:38.974275
+221,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,20,36.36,1KG,946,20,20,0,woolworths.com,2021-08-18 08:12:42.22352
+222,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-08-18 08:12:42.22352
+223,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-18 08:12:42.22352
+224,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-18 08:12:42.22352
+225,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,12,6.52,100G,184,12,12,0,woolworths.com,2021-08-18 08:12:42.22352
+226,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,4.9,4.9,1L,1100,4.9,4.9,0,woolworths.com,2021-08-18 08:12:42.22352
+227,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,4,2,100G,232,4,4,0,woolworths.com,2021-08-18 08:12:42.22352
+228,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,11.95,1.26,100ML,1300,12.95,12.95,1,woolworths.com,2021-08-18 08:12:42.22352
+229,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3.5,28,1KG,154,3.5,3.5,0,woolworths.com,2021-08-18 08:12:42.22352
+230,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-18 08:12:42.22352
+231,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-18 08:12:42.22352
+232,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,550,8.5,8.5,0,woolworths.com,2021-08-18 08:12:42.22352
+233,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-08-18 08:12:42.22352
+234,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,8,1.6,100G,532,8,8,0,woolworths.com,2021-08-18 08:12:42.22352
+235,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-08-18 08:12:42.22352
+236,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,1070,8.5,8.5,0,woolworths.com,2021-08-18 08:12:42.22352
+237,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-08-18 08:12:42.22352
+238,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-08-18 08:12:42.22352
+239,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-08-18 08:12:42.22352
+240,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-08-18 08:12:42.22352
+241,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,20,36.36,1KG,946,20,20,0,woolworths.com,2021-08-18 18:51:10.951689
+242,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-08-18 18:51:10.951689
+243,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-18 18:51:10.951689
+244,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-18 18:51:10.951689
+245,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,12,6.52,100G,184,12,12,0,woolworths.com,2021-08-18 18:51:10.951689
+246,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,4.9,4.9,1L,1100,4.9,4.9,0,woolworths.com,2021-08-18 18:51:10.951689
+247,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,4,2,100G,232,4,4,0,woolworths.com,2021-08-18 18:51:10.951689
+248,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,11.95,1.26,100ML,1300,12.95,12.95,1,woolworths.com,2021-08-18 18:51:10.951689
+249,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3.5,28,1KG,154,3.5,3.5,0,woolworths.com,2021-08-18 18:51:10.951689
+250,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-18 18:51:10.951689
+251,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-18 18:51:10.951689
+252,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,550,8.5,8.5,0,woolworths.com,2021-08-18 18:51:10.951689
+253,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-08-18 18:51:10.951689
+254,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,8,1.6,100G,532,8,8,0,woolworths.com,2021-08-18 18:51:10.951689
+255,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-08-18 18:51:10.951689
+256,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,1070,8.5,8.5,0,woolworths.com,2021-08-18 18:51:10.951689
+257,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-08-18 18:51:10.951689
+258,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-08-18 18:51:10.951689
+259,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-08-18 18:51:10.951689
+260,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-08-18 18:51:10.951689
+261,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,20,36.36,1KG,946,20,20,0,woolworths.com,2021-08-19 18:40:49.545247
+262,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-08-19 18:40:49.545247
+263,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-19 18:40:49.545247
+264,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-19 18:40:49.545247
+265,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,12,6.52,100G,184,12,12,0,woolworths.com,2021-08-19 18:40:49.545247
+266,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,4.9,4.9,1L,1100,4.9,4.9,0,woolworths.com,2021-08-19 18:40:49.545247
+267,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,4,2,100G,232,4,4,0,woolworths.com,2021-08-19 18:40:49.545247
+268,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,11.95,1.26,100ML,1300,12.95,12.95,1,woolworths.com,2021-08-19 18:40:49.545247
+269,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3.5,28,1KG,154,3.5,3.5,0,woolworths.com,2021-08-19 18:40:49.545247
+270,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-19 18:40:49.545247
+271,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-19 18:40:49.545247
+272,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,550,8.5,8.5,0,woolworths.com,2021-08-19 18:40:49.545247
+273,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-08-19 18:40:49.545247
+274,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,8,1.6,100G,532,8,8,0,woolworths.com,2021-08-19 18:40:49.545247
+275,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-08-19 18:40:49.545247
+276,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,1070,8.5,8.5,0,woolworths.com,2021-08-19 18:40:49.545247
+277,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-08-19 18:40:49.545247
+278,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-08-19 18:40:49.545247
+279,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-08-19 18:40:49.545247
+280,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-08-19 18:40:49.545247
+281,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,20,36.36,1KG,946,20,20,0,woolworths.com,2021-08-20 19:51:34.954154
+282,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-08-20 19:51:34.954154
+283,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-20 19:51:34.954154
+284,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-20 19:51:34.954154
+285,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,12,6.52,100G,184,12,12,0,woolworths.com,2021-08-20 19:51:34.954154
+286,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,4.9,4.9,1L,1100,4.9,4.9,0,woolworths.com,2021-08-20 19:51:34.954154
+287,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,4,2,100G,232,4,4,0,woolworths.com,2021-08-20 19:51:34.954154
+288,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,11.95,1.26,100ML,1300,12.95,12.95,1,woolworths.com,2021-08-20 19:51:34.954154
+289,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3.5,28,1KG,154,3.5,3.5,0,woolworths.com,2021-08-20 19:51:34.954154
+290,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-20 19:51:34.954154
+291,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-20 19:51:34.954154
+292,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,550,8.5,8.5,0,woolworths.com,2021-08-20 19:51:34.954154
+293,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-08-20 19:51:34.954154
+294,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,8,1.6,100G,532,8,8,0,woolworths.com,2021-08-20 19:51:34.954154
+295,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-08-20 19:51:34.954154
+296,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,1070,8.5,8.5,0,woolworths.com,2021-08-20 19:51:34.954154
+297,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-08-20 19:51:34.954154
+298,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-08-20 19:51:34.954154
+299,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-08-20 19:51:34.954154
+300,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-08-20 19:51:34.954154
+301,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,20,36.36,1KG,946,20,20,0,woolworths.com,2021-08-21 19:47:08.233163
+302,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-08-21 19:47:08.233163
+303,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-21 19:47:08.233163
+304,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-21 19:47:08.233163
+305,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,12,6.52,100G,184,12,12,0,woolworths.com,2021-08-21 19:47:08.233163
+306,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,4.9,4.9,1L,1100,4.9,4.9,0,woolworths.com,2021-08-21 19:47:08.233163
+307,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,4,2,100G,232,4,4,0,woolworths.com,2021-08-21 19:47:08.233163
+308,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,11.95,1.26,100ML,1300,12.95,12.95,1,woolworths.com,2021-08-21 19:47:08.233163
+309,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3.5,28,1KG,154,3.5,3.5,0,woolworths.com,2021-08-21 19:47:08.233163
+310,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-21 19:47:08.233163
+311,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-21 19:47:08.233163
+312,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,550,8.5,8.5,0,woolworths.com,2021-08-21 19:47:08.233163
+313,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-08-21 19:47:08.233163
+314,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,8,1.6,100G,532,8,8,0,woolworths.com,2021-08-21 19:47:08.233163
+315,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-08-21 19:47:08.233163
+316,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,1070,8.5,8.5,0,woolworths.com,2021-08-21 19:47:08.233163
+317,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-08-21 19:47:08.233163
+318,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-08-21 19:47:08.233163
+319,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-08-21 19:47:08.233163
+320,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-08-21 19:47:08.233163
+321,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,20,36.36,1KG,946,20,20,0,woolworths.com,2021-08-23 21:16:25.975203
+322,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-08-23 21:16:25.975203
+323,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-23 21:16:25.975203
+324,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-23 21:16:25.975203
+325,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,12,6.52,100G,184,12,12,0,woolworths.com,2021-08-23 21:16:25.975203
+326,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,4.9,4.9,1L,1100,4.9,4.9,0,woolworths.com,2021-08-23 21:16:25.975203
+327,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,4,2,100G,232,4,4,0,woolworths.com,2021-08-23 21:16:25.975203
+328,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,11.95,1.26,100ML,1300,12.95,12.95,1,woolworths.com,2021-08-23 21:16:25.975203
+329,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3.5,28,1KG,154,3.5,3.5,0,woolworths.com,2021-08-23 21:16:25.975203
+330,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-23 21:16:25.975203
+331,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-23 21:16:25.975203
+332,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,550,8.5,8.5,0,woolworths.com,2021-08-23 21:16:25.975203
+333,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-08-23 21:16:25.975203
+334,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,8,1.6,100G,532,8,8,0,woolworths.com,2021-08-23 21:16:25.975203
+335,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-08-23 21:16:25.975203
+336,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,1070,8.5,8.5,0,woolworths.com,2021-08-23 21:16:25.975203
+337,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-08-23 21:16:25.975203
+338,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-08-23 21:16:25.975203
+339,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-08-23 21:16:25.975203
+340,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-08-23 21:16:25.975203
+341,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,20,36.36,1KG,946,20,20,0,woolworths.com,2021-08-24 20:37:13.487505
+342,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-08-24 20:37:13.487505
+343,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-24 20:37:13.487505
+344,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-24 20:37:13.487505
+345,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,12,6.52,100G,184,12,12,0,woolworths.com,2021-08-24 20:37:13.487505
+346,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,4.9,4.9,1L,1100,4.9,4.9,0,woolworths.com,2021-08-24 20:37:13.487505
+347,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,4,2,100G,232,4,4,0,woolworths.com,2021-08-24 20:37:13.487505
+348,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,11.95,1.26,100ML,1300,12.95,12.95,1,woolworths.com,2021-08-24 20:37:13.487505
+349,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3.5,28,1KG,154,3.5,3.5,0,woolworths.com,2021-08-24 20:37:13.487505
+350,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-24 20:37:13.487505
+351,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-24 20:37:13.487505
+352,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,550,8.5,8.5,0,woolworths.com,2021-08-24 20:37:13.487505
+353,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-08-24 20:37:13.487505
+354,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,8,1.6,100G,532,8,8,0,woolworths.com,2021-08-24 20:37:13.487505
+355,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-08-24 20:37:13.487505
+356,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,1070,8.5,8.5,0,woolworths.com,2021-08-24 20:37:13.487505
+357,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-08-24 20:37:13.487505
+358,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-08-24 20:37:13.487505
+359,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-08-24 20:37:13.487505
+360,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-08-24 20:37:13.487505
+361,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,18,32.73,1KG,946,20,20,2,woolworths.com,2021-08-25 20:53:35.394531
+362,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-08-25 20:53:35.394531
+363,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-25 20:53:35.394531
+364,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,10,24.39,1KG,690,12.5,12.5,2.5,woolworths.com,2021-08-25 20:53:35.394531
+365,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,12,6.52,100G,184,12,12,0,woolworths.com,2021-08-25 20:53:35.394531
+366,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,3.92,3.92,1L,1100,4.9,4.9,0.98,woolworths.com,2021-08-25 20:53:35.394531
+367,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,3,1.5,100G,232,4,4,1,woolworths.com,2021-08-25 20:53:35.394531
+368,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,12.95,1.37,100ML,1300,12.95,12.95,0,woolworths.com,2021-08-25 20:53:35.394531
+369,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3,24,1KG,154,3.5,3.5,0.5,woolworths.com,2021-08-25 20:53:35.394531
+370,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-25 20:53:35.394531
+371,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-25 20:53:35.394531
+372,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,550,8.5,8.5,0,woolworths.com,2021-08-25 20:53:35.394531
+373,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-08-25 20:53:35.394531
+374,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,6,1.2,100G,532,8,8,2,woolworths.com,2021-08-25 20:53:35.394531
+375,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-08-25 20:53:35.394531
+376,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,1070,8.5,8.5,0,woolworths.com,2021-08-25 20:53:35.394531
+377,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-08-25 20:53:35.394531
+378,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-08-25 20:53:35.394531
+379,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-08-25 20:53:35.394531
+380,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-08-25 20:53:35.394531
+381,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,18,32.73,1KG,946,20,20,2,woolworths.com,2021-08-26 20:32:53.133535
+382,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-08-26 20:32:53.133535
+383,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-26 20:32:53.133535
+384,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,10,24.39,1KG,690,12.5,12.5,2.5,woolworths.com,2021-08-26 20:32:53.133535
+385,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,12,6.52,100G,184,12,12,0,woolworths.com,2021-08-26 20:32:53.133535
+386,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,3.92,3.92,1L,1100,4.9,4.9,0.98,woolworths.com,2021-08-26 20:32:53.133535
+387,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,3,1.5,100G,232,4,4,1,woolworths.com,2021-08-26 20:32:53.133535
+388,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,12.95,1.37,100ML,1300,12.95,12.95,0,woolworths.com,2021-08-26 20:32:53.133535
+389,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3,24,1KG,154,3.5,3.5,0.5,woolworths.com,2021-08-26 20:32:53.133535
+390,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-26 20:32:53.133535
+391,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-26 20:32:53.133535
+392,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,550,8.5,8.5,0,woolworths.com,2021-08-26 20:32:53.133535
+393,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-08-26 20:32:53.133535
+394,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,6,1.2,100G,532,8,8,2,woolworths.com,2021-08-26 20:32:53.133535
+395,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-08-26 20:32:53.133535
+396,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,1070,8.5,8.5,0,woolworths.com,2021-08-26 20:32:53.133535
+397,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-08-26 20:32:53.133535
+398,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-08-26 20:32:53.133535
+399,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-08-26 20:32:53.133535
+400,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-08-26 20:32:53.133535
+401,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,18,32.73,1KG,946,20,20,2,woolworths.com,2021-08-26 20:40:57.503204
+402,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-08-26 20:40:57.503204
+403,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-26 20:40:57.503204
+404,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,10,24.39,1KG,690,12.5,12.5,2.5,woolworths.com,2021-08-26 20:40:57.503204
+405,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,12,6.52,100G,184,12,12,0,woolworths.com,2021-08-26 20:40:57.503204
+406,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,3.92,3.92,1L,1100,4.9,4.9,0.98,woolworths.com,2021-08-26 20:40:57.503204
+407,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,3,1.5,100G,232,4,4,1,woolworths.com,2021-08-26 20:40:57.503204
+408,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,12.95,1.37,100ML,1300,12.95,12.95,0,woolworths.com,2021-08-26 20:40:57.503204
+409,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3,24,1KG,154,3.5,3.5,0.5,woolworths.com,2021-08-26 20:40:57.503204
+410,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-26 20:40:57.503204
+411,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-26 20:40:57.503204
+412,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,550,8.5,8.5,0,woolworths.com,2021-08-26 20:40:57.503204
+413,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-08-26 20:40:57.503204
+414,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,6,1.2,100G,532,8,8,2,woolworths.com,2021-08-26 20:40:57.503204
+415,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-08-26 20:40:57.503204
+416,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,1070,8.5,8.5,0,woolworths.com,2021-08-26 20:40:57.503204
+417,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-08-26 20:40:57.503204
+418,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-08-26 20:40:57.503204
+419,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-08-26 20:40:57.503204
+420,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-08-26 20:40:57.503204
+421,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,18,32.73,1KG,946,20,20,2,woolworths.com,2021-08-26 21:06:23.499354
+422,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-08-26 21:06:23.499354
+423,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-26 21:06:23.499354
+424,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,10,24.39,1KG,690,12.5,12.5,2.5,woolworths.com,2021-08-26 21:06:23.499354
+425,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,12,6.52,100G,184,12,12,0,woolworths.com,2021-08-26 21:06:23.499354
+426,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,3.92,3.92,1L,1100,4.9,4.9,0.98,woolworths.com,2021-08-26 21:06:23.499354
+427,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,3,1.5,100G,232,4,4,1,woolworths.com,2021-08-26 21:06:23.499354
+428,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,12.95,1.37,100ML,1300,12.95,12.95,0,woolworths.com,2021-08-26 21:06:23.499354
+429,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3,24,1KG,154,3.5,3.5,0.5,woolworths.com,2021-08-26 21:06:23.499354
+430,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-26 21:06:23.499354
+431,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-26 21:06:23.499354
+432,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,550,8.5,8.5,0,woolworths.com,2021-08-26 21:06:23.499354
+433,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-08-26 21:06:23.499354
+434,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,6,1.2,100G,532,8,8,2,woolworths.com,2021-08-26 21:06:23.499354
+435,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-08-26 21:06:23.499354
+436,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,1070,8.5,8.5,0,woolworths.com,2021-08-26 21:06:23.499354
+437,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-08-26 21:06:23.499354
+438,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-08-26 21:06:23.499354
+439,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-08-26 21:06:23.499354
+440,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-08-26 21:06:23.499354
+441,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,18,32.73,1KG,946,20,20,2,woolworths.com,2021-08-27 21:11:46.659235
+442,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-08-27 21:11:46.659235
+443,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-27 21:11:46.659235
+444,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,10,24.39,1KG,690,12.5,12.5,2.5,woolworths.com,2021-08-27 21:11:46.659235
+445,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,12,6.52,100G,184,12,12,0,woolworths.com,2021-08-27 21:11:46.659235
+446,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,3.92,3.92,1L,1100,4.9,4.9,0.98,woolworths.com,2021-08-27 21:11:46.659235
+447,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,3,1.5,100G,232,4,4,1,woolworths.com,2021-08-27 21:11:46.659235
+448,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,12.95,1.37,100ML,1300,12.95,12.95,0,woolworths.com,2021-08-27 21:11:46.659235
+449,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3,24,1KG,154,3.5,3.5,0.5,woolworths.com,2021-08-27 21:11:46.659235
+450,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-27 21:11:46.659235
+451,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-27 21:11:46.659235
+452,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,550,8.5,8.5,0,woolworths.com,2021-08-27 21:11:46.659235
+453,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-08-27 21:11:46.659235
+454,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,6,1.2,100G,532,8,8,2,woolworths.com,2021-08-27 21:11:46.659235
+455,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-08-27 21:11:46.659235
+456,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,1070,8.5,8.5,0,woolworths.com,2021-08-27 21:11:46.659235
+457,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-08-27 21:11:46.659235
+458,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-08-27 21:11:46.659235
+459,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-08-27 21:11:46.659235
+460,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-08-27 21:11:46.659235
+461,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,18,32.73,1KG,946,20,20,2,woolworths.com,2021-08-28 16:26:42.106284
+462,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-08-28 16:26:42.106284
+463,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-28 16:26:42.106284
+464,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,10,24.39,1KG,690,12.5,12.5,2.5,woolworths.com,2021-08-28 16:26:42.106284
+465,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,12,6.52,100G,184,12,12,0,woolworths.com,2021-08-28 16:26:42.106284
+466,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,3.92,3.92,1L,1100,4.9,4.9,0.98,woolworths.com,2021-08-28 16:26:42.106284
+467,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,3,1.5,100G,232,4,4,1,woolworths.com,2021-08-28 16:26:42.106284
+468,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,12.95,1.37,100ML,1300,12.95,12.95,0,woolworths.com,2021-08-28 16:26:42.106284
+469,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3,24,1KG,154,3.5,3.5,0.5,woolworths.com,2021-08-28 16:26:42.106284
+470,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-28 16:26:42.106284
+471,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-28 16:26:42.106284
+472,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,550,8.5,8.5,0,woolworths.com,2021-08-28 16:26:42.106284
+473,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-08-28 16:26:42.106284
+474,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,6,1.2,100G,532,8,8,2,woolworths.com,2021-08-28 16:26:42.106284
+475,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-08-28 16:26:42.106284
+476,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,1070,8.5,8.5,0,woolworths.com,2021-08-28 16:26:42.106284
+477,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-08-28 16:26:42.106284
+478,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-08-28 16:26:42.106284
+479,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-08-28 16:26:42.106284
+480,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-08-28 16:26:42.106284
+481,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,18,32.73,1KG,946,20,20,2,woolworths.com,2021-08-30 20:56:49.122796
+482,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-08-30 20:56:49.122796
+483,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-08-30 20:56:49.122796
+484,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,10,24.39,1KG,690,12.5,12.5,2.5,woolworths.com,2021-08-30 20:56:49.122796
+485,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,12,6.52,100G,184,12,12,0,woolworths.com,2021-08-30 20:56:49.122796
+486,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,3.92,3.92,1L,1100,4.9,4.9,0.98,woolworths.com,2021-08-30 20:56:49.122796
+487,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,3,1.5,100G,232,4,4,1,woolworths.com,2021-08-30 20:56:49.122796
+488,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,12.95,1.37,100ML,1300,12.95,12.95,0,woolworths.com,2021-08-30 20:56:49.122796
+489,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3,24,1KG,154,3.5,3.5,0.5,woolworths.com,2021-08-30 20:56:49.122796
+490,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-30 20:56:49.122796
+491,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-08-30 20:56:49.122796
+492,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,550,8.5,8.5,0,woolworths.com,2021-08-30 20:56:49.122796
+493,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-08-30 20:56:49.122796
+494,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,6,1.2,100G,532,8,8,2,woolworths.com,2021-08-30 20:56:49.122796
+495,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-08-30 20:56:49.122796
+496,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,1070,8.5,8.5,0,woolworths.com,2021-08-30 20:56:49.122796
+497,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-08-30 20:56:49.122796
+498,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-08-30 20:56:49.122796
+499,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-08-30 20:56:49.122796
+500,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-08-30 20:56:49.122796
+501,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,20,36.36,1KG,946,20,20,0,woolworths.com,2021-09-01 19:24:42.521154
+502,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-09-01 19:24:42.521154
+503,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-09-01 19:24:42.521154
+504,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-09-01 19:24:42.521154
+505,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,12,6.52,100G,184,12,12,0,woolworths.com,2021-09-01 19:24:42.521154
+506,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,4.9,4.9,1L,1100,4.9,4.9,0,woolworths.com,2021-09-01 19:24:42.521154
+507,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,4,2,100G,232,4,4,0,woolworths.com,2021-09-01 19:24:42.521154
+508,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,12.95,1.37,100ML,1300,12.95,12.95,0,woolworths.com,2021-09-01 19:24:42.521154
+509,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3.5,28,1KG,154,3.5,3.5,0,woolworths.com,2021-09-01 19:24:42.521154
+510,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-09-01 19:24:42.521154
+511,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-09-01 19:24:42.521154
+512,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,550,8.5,8.5,0,woolworths.com,2021-09-01 19:24:42.521154
+513,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-09-01 19:24:42.521154
+514,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,8,1.6,100G,532,8,8,0,woolworths.com,2021-09-01 19:24:42.521154
+515,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-09-01 19:24:42.521154
+516,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,1070,8.5,8.5,0,woolworths.com,2021-09-01 19:24:42.521154
+517,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-09-01 19:24:42.521154
+518,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-09-01 19:24:42.521154
+519,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-09-01 19:24:42.521154
+520,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-09-01 19:24:42.521154
+521,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,20,36.36,1KG,946,20,20,0,woolworths.com,2021-09-06 20:57:54.407736
+522,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-09-06 20:57:54.407736
+523,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-09-06 20:57:54.407736
+524,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-09-06 20:57:54.407736
+525,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,12,6.52,100G,184,12,12,0,woolworths.com,2021-09-06 20:57:54.407736
+526,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,4.9,4.9,1L,1100,4.9,4.9,0,woolworths.com,2021-09-06 20:57:54.407736
+527,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,4,2,100G,232,4,4,0,woolworths.com,2021-09-06 20:57:54.407736
+528,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,12.95,1.37,100ML,1300,12.95,12.95,0,woolworths.com,2021-09-06 20:57:54.407736
+529,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3.5,28,1KG,154,3.5,3.5,0,woolworths.com,2021-09-06 20:57:54.407736
+530,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-09-06 20:57:54.407736
+531,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-09-06 20:57:54.407736
+532,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,550,8.5,8.5,0,woolworths.com,2021-09-06 20:57:54.407736
+533,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-09-06 20:57:54.407736
+534,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,8,1.6,100G,532,8,8,0,woolworths.com,2021-09-06 20:57:54.407736
+535,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-09-06 20:57:54.407736
+536,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,1070,8.5,8.5,0,woolworths.com,2021-09-06 20:57:54.407736
+537,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-09-06 20:57:54.407736
+538,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-09-06 20:57:54.407736
+539,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-09-06 20:57:54.407736
+540,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-09-06 20:57:54.407736
+541,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,20,36.36,1KG,946,20,20,0,woolworths.com,2021-09-07 07:36:01.664749
+542,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-09-07 07:36:01.664749
+543,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-09-07 07:36:01.664749
+544,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-09-07 07:36:01.664749
+545,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,12,6.52,100G,184,12,12,0,woolworths.com,2021-09-07 07:36:01.664749
+546,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,4.9,4.9,1L,1100,4.9,4.9,0,woolworths.com,2021-09-07 07:36:01.664749
+547,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,4,2,100G,232,4,4,0,woolworths.com,2021-09-07 07:36:01.664749
+548,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,12.95,1.37,100ML,1300,12.95,12.95,0,woolworths.com,2021-09-07 07:36:01.664749
+549,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3.5,28,1KG,154,3.5,3.5,0,woolworths.com,2021-09-07 07:36:01.664749
+550,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-09-07 07:36:01.664749
+551,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-09-07 07:36:01.664749
+552,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,550,8.5,8.5,0,woolworths.com,2021-09-07 07:36:01.664749
+553,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-09-07 07:36:01.664749
+554,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,8,1.6,100G,532,8,8,0,woolworths.com,2021-09-07 07:36:01.664749
+555,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-09-07 07:36:01.664749
+556,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,1070,8.5,8.5,0,woolworths.com,2021-09-07 07:36:01.664749
+557,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-09-07 07:36:01.664749
+558,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-09-07 07:36:01.664749
+559,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-09-07 07:36:01.664749
+560,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-09-07 07:36:01.664749
+561,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,20,36.36,1KG,946,20,20,0,woolworths.com,2021-09-19 16:47:07.453496
+562,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-09-19 16:47:07.453496
+563,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-09-19 16:47:07.453496
+564,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-09-19 16:47:07.453496
+565,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,12,6.52,100G,184,12,12,0,woolworths.com,2021-09-19 16:47:07.453496
+566,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,4.9,4.9,1L,1100,4.9,4.9,0,woolworths.com,2021-09-19 16:47:07.453496
+567,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,4,2,100G,232,4,4,0,woolworths.com,2021-09-19 16:47:07.453496
+568,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,12.95,1.37,100ML,1300,12.95,12.95,0,woolworths.com,2021-09-19 16:47:07.453496
+569,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3.5,28,1KG,154,3.5,3.5,0,woolworths.com,2021-09-19 16:47:07.453496
+570,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-09-19 16:47:07.453496
+571,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,500,8.5,8.5,0,woolworths.com,2021-09-19 16:47:07.453496
+572,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,550,8.5,8.5,0,woolworths.com,2021-09-19 16:47:07.453496
+573,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-09-19 16:47:07.453496
+574,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,8,1.6,100G,532,8,8,0,woolworths.com,2021-09-19 16:47:07.453496
+575,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-09-19 16:47:07.453496
+576,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,750,8.5,8.5,0,woolworths.com,2021-09-19 16:47:07.453496
+577,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-09-19 16:47:07.453496
+578,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-09-19 16:47:07.453496
+579,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-09-19 16:47:07.453496
+580,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-09-19 16:47:07.453496
+581,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,20,36.36,1KG,946,20,20,0,woolworths.com,2021-10-09 15:09:18.623035
+582,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-10-09 15:09:18.623035
+583,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-10-09 15:09:18.623035
+584,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,10,24.39,1KG,690,12.5,12.5,2.5,woolworths.com,2021-10-09 15:09:18.623035
+585,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,0,6.52,100G,184,0,0,0,woolworths.com,2021-10-09 15:09:18.623035
+586,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,0,4.9,1L,1100,0,0,0,woolworths.com,2021-10-09 15:09:18.623035
+587,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,4,2,100G,232,4,4,0,woolworths.com,2021-10-09 15:09:18.623035
+588,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,12.95,1.37,100ML,1300,12.95,12.95,0,woolworths.com,2021-10-09 15:09:18.623035
+589,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3.5,28,1KG,154,3.5,3.5,0,woolworths.com,2021-10-09 15:09:18.623035
+590,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,0,18.89,1KG,468,0,0,0,woolworths.com,2021-10-09 15:09:18.623035
+591,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,462,8.5,8.5,0,woolworths.com,2021-10-09 15:09:18.623035
+592,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,528,8.5,8.5,0,woolworths.com,2021-10-09 15:09:18.623035
+593,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,0,16.67,1KG,466,0,0,0,woolworths.com,2021-10-09 15:09:18.623035
+594,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,8,1.6,100G,532,8,8,0,woolworths.com,2021-10-09 15:09:18.623035
+595,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-10-09 15:09:18.623035
+596,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,750,8.5,8.5,0,woolworths.com,2021-10-09 15:09:18.623035
+597,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-10-09 15:09:18.623035
+598,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-10-09 15:09:18.623035
+599,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-10-09 15:09:18.623035
+600,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-10-09 15:09:18.623035
+601,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,20,36.36,1KG,946,20,20,0,woolworths.com,2021-10-23 08:03:34.390365
+602,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-10-23 08:03:34.390365
+603,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-10-23 08:03:34.390365
+604,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-10-23 08:03:34.390365
+605,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,0,6.52,100G,184,0,0,0,woolworths.com,2021-10-23 08:03:34.390365
+606,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,4.9,4.9,1L,1100,4.9,4.9,0,woolworths.com,2021-10-23 08:03:34.390365
+607,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,3,1.5,100G,232,4,4,1,woolworths.com,2021-10-23 08:03:34.390365
+608,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,12.95,1.37,100ML,1300,12.95,12.95,0,woolworths.com,2021-10-23 08:03:34.390365
+609,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3.5,28,1KG,154,3.5,3.5,0,woolworths.com,2021-10-23 08:03:34.390365
+610,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,0,18.89,1KG,468,0,0,0,woolworths.com,2021-10-23 08:03:34.390365
+611,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,462,8.5,8.5,0,woolworths.com,2021-10-23 08:03:34.390365
+612,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,528,8.5,8.5,0,woolworths.com,2021-10-23 08:03:34.390365
+613,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-10-23 08:03:34.390365
+614,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,6,1.2,100G,532,8,8,2,woolworths.com,2021-10-23 08:03:34.390365
+615,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-10-23 08:03:34.390365
+616,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,750,8.5,8.5,0,woolworths.com,2021-10-23 08:03:34.390365
+617,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-10-23 08:03:34.390365
+618,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-10-23 08:03:34.390365
+619,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-10-23 08:03:34.390365
+620,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,3,3.33,100G,44,4.25,4.25,1.25,woolworths.com,2021-10-23 08:03:34.390365
+621,663973,Meredith Dairy Marinated Goats Cheese Jar,Meredith Dairy Marinated Goats Cheese Jar 550g,20,36.36,1KG,946,20,20,0,woolworths.com,2021-11-05 18:54:07.252378
+622,135884,Meredith Dairy Goat Cheese In Olive Oil,Meredith Dairy Goat Cheese In Olive Oil 320g,12.99,40.59,1KG,546,12.99,12.99,0,woolworths.com,2021-11-05 18:54:07.252378
+623,876670,Kehoe's Organic Beetroot & Ginger Sauerkraut,Kehoe's Organic Beetroot & Ginger Sauerkraut 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-11-05 18:54:07.252378
+624,876671,Kehoe's Organic Kimchi,Kehoe's Organic Kimchi 410g,12.5,30.49,1KG,690,12.5,12.5,0,woolworths.com,2021-11-05 18:54:07.252378
+625,325292,Mary's Gone Crackers Love Cookie Original,Mary's Gone Crackers Love Cookie Original 184g,0,6.52,100G,184,0,0,0,woolworths.com,2021-11-05 18:54:07.252378
+626,155063,Minor Figures Barista Oat Uht Organic Milk,Minor Figures Minor Figures Barista Oat Uht Organic Milk 1l,4.9,4.9,1L,1100,4.9,4.9,0,woolworths.com,2021-11-05 18:54:07.252378
+627,16436,Mountain Bread Rye Mountain Bread,Mountain Bread Rye Mountain Bread 200g,4,2,100G,232,4,4,0,woolworths.com,2021-11-05 18:54:07.252378
+628,476910,Braggs Apple Cider Vinegar,Braggs Apple Cider Vinegar 946ml,12,1.27,100ML,1300,12.95,12.95,0.95,woolworths.com,2021-11-05 18:54:07.252378
+629,257374,Sirena Tuna Slices Chilli & Oil,Sirena Tuna Slices Chilli & Oil 125g,3,24,1KG,154,3.5,3.5,0.5,woolworths.com,2021-11-05 18:54:07.252378
+630,931859,Oob Organic Frozen Blueberries,Oob Organic Frozen Blueberries 450g,0,18.89,1KG,468,0,0,0,woolworths.com,2021-11-05 18:54:07.252378
+631,792993,Oob Organic Raspberries,Oob Organic Raspberries 450g,8.5,18.89,1KG,462,8.5,8.5,0,woolworths.com,2021-11-05 18:54:07.252378
+632,780094,Oob Organic Frozen Strawberries,Oob Organic Frozen Strawberries 500g,8.5,17,1KG,528,8.5,8.5,0,woolworths.com,2021-11-05 18:54:07.252378
+633,815129,Macro Organic Frozen Mixed Berries,Macro Organic Frozen Mixed Berries 450g,7.5,16.67,1KG,466,7.5,7.5,0,woolworths.com,2021-11-05 18:54:07.252378
+634,896940,Coyo Organic Coconut Yoghurt Natural,Coyo Organic Coconut Yoghurt Natural 500g,8,1.6,100G,532,8,8,0,woolworths.com,2021-11-05 18:54:07.252378
+635,872611,Nakula Organic Yoghurt Natural Unsweetened,Nakula Organic Yoghurt Natural Unsweetened 1kg,10,1,100G,1042,10,10,0,woolworths.com,2021-11-05 18:54:07.252378
+636,127012,Mayver's Smooth Peanut Butter,Mayver's Smooth Peanut Butter 750g,8.5,1.13,100G,750,8.5,8.5,0,woolworths.com,2021-11-05 18:54:07.252378
+637,120690,Woolworths Almond Meal,Woolworths Almond Meal 665g,10.5,15.79,1KG,672,10.5,10.5,0,woolworths.com,2021-11-05 18:54:07.252378
+638,795044,Olive Green Organics Penne Tri Grain,Olive Green Organics Penne Tri Grain 300g,6,2,100G,300,6,6,0,woolworths.com,2021-11-05 18:54:07.252378
+639,378934,Buontempo Gluten & Wheat Free Pasta Spirals Pasta,Buontempo Gluten & Wheat Free Pasta Spirals Pasta 500g,3.4,0.68,100G,520,3.4,3.4,0,woolworths.com,2021-11-05 18:54:07.252378
+640,2514,Green & Black's Organic Dark Chocolate 70% Cocoa,Green & Black's Organic Dark Chocolate 70% Cocoa 90g,4.25,4.72,100G,44,4.25,4.25,0,woolworths.com,2021-11-05 18:54:07.252378

@@ -27,8 +27,7 @@ class StoreToWooliesDatabase:
         Process the item and store to database.
         """
         session = self.Session()
-        instance = session.query(WooliesORM).filter_by(**item).one_or_none()
-        if instance:
+        if instance := session.query(WooliesORM).filter_by(**item).one_or_none():
             return instance
         woolies = WooliesORM(**item)
 
